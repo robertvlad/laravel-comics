@@ -1,5 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
 
+
+//GENERAL
 *{
     padding: 0;
     margin: 0;
@@ -15,18 +17,21 @@ ul{
     }
 }
 
-.active{
+hr{
     color: #0282f9;
 }
 
-hr{
+
+//HEADER
+
+.active{
     color: #0282f9;
 }
 
 .blue_top{
     background-color: #0282f9;
     height: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .top_bar{
@@ -37,4 +42,60 @@ hr{
         color: #ffffff;
         padding-left: 30px;
     }
+}
+
+.titan_bg{
+    background-image: url(../img/jumbotron.jpg);
+    height: 400px;
+    margin-top: 15px;
+}
+
+
+//FOOTER
+
+.footer-blue{
+    background-color: #0282f9;
+
+    .blue-section{
+        padding: 30px 0;
+    }
+
+    img{
+        height: 80px;
+    }
+
+    span{
+        color: #ffffff;
+        padding-left: 10px;
+    }
+}
+
+.footer-with-bg{
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    width: 100%;
+
+    h4{
+        color: #ffffff;
+        padding: 20px 0 10px 0;
+    }
+
+    a, p{
+        color: #ffffffa7;
+    }
+    
+    span{
+        color: #0282f9;
+    }
+}
+
+.blue-follow{
+    color: #0282f9;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+}
+
+.black-footer{
+    background-color: #303030;
 }

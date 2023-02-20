@@ -48,7 +48,9 @@ Route::get('/comics', function () {
         'SHOP' => '/shop',
     ];
 
-    return view('comics', compact('menu'));
+    $cards = config('comics');
+
+    return view('comics', compact('menu', 'cards'));
 })->name('comics');
 
 Route::get('/movies', function () {
