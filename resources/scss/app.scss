@@ -51,6 +51,40 @@ hr{
 }
 
 
+//MAIN
+
+.black-main{
+    background-color: #1c1c1c;
+    padding: 40px 0;
+    
+
+    .current{
+        background-color: #0282f9;
+        padding: 20px 50px;
+        text-decoration: none;
+        color: #ffffff;
+        position: relative;
+        top: -50px;
+    }
+
+    .cards-comics{
+        width: 17%;
+        padding-bottom: 40px;
+
+        p{
+            color: #ffffff;
+            padding-top: 8px
+        }
+    }
+
+    .load{
+        background-color: #0282f9;
+        padding: 15px 30px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
 //FOOTER
 
 .footer-blue{
