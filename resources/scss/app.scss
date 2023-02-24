@@ -135,3 +135,45 @@ hr{
 .black-footer{
     background-color: #303030;
 }
+
+
+// Detail page
+
+.blue-line{
+    background-color: #0282f9;
+    height: 70px;
+    width: 100%;
+}
+
+.img-detail{
+    position: relative;
+    top: -250px;
+}
+
+.container-small{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.green{
+    background-color: #008000;
+    border: 2px solid rgba(1, 83, 1, 0.768);
+    border-radius: 1px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.footer-grey{
+    background-color: rgb(227, 227, 227);
+    border-top: 1px solid grey;
+}
+
+.square-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+    img{
+        width: 50%;
+    }
+}

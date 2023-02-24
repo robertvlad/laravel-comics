@@ -73,4 +73,7 @@
             </div>
         </div>
     </div>
+    <div class="titan_bg">
+
+    </div>
 </header>

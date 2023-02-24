@@ -24,7 +24,7 @@ Route::get('/comics/{title}', function($title) {
         }
     }
 
-    return view('detail_comic', compact('single'));
+    return view('detail_comic', compact('single', "cards"));
 })->name('detail_comic');
 
 

@@ -5,9 +5,6 @@
 @section('content')
 
 <main>
-    <div class="titan_bg">
-
-    </div>
     <div class="black-main">
         <div class="container">
             <div class="row">
