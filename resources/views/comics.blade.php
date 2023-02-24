@@ -18,8 +18,8 @@
                     <div class="d-flex flex-wrap justify-content-between">
                         @foreach (array_slice($cards, 0, 10) as $card)
                             <div class="cards-comics">
-                                <img src="{{ $card['thumb'] }}" alt="">
-                                <p>{{ $card['title']}}</p>
+                                <a href="{{ route('detail_comic', ['title' => $card['title']]) }}"><img src="{{ $card['thumb'] }}" alt=""></a>
+                                <a href="{{ route('detail_comic', ['title' => $card['title']]) }}"><p>{{ $card['title']}}</p></a>
                             </div>                        
                         @endforeach
                     </div>

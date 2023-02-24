@@ -13,6 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/comics/{title}', function($title) {
+
+    $cards = config('comics');
+
+    foreach ($cards as $card) {
+        if ($card['title'] = $title) {
+            
+            $single = $card;
+        }
+    }
+
+    return view('detail_comic', compact('single'));
+})->name('detail_comic');
+
+
 Route::get('/characters', function () {
 
     $menu = [

@@ -8,11 +8,14 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 ul{
     list-style-type: none;
 
     li a{
-        text-decoration: none;
         color: #000000;
     }
 }
@@ -38,7 +41,6 @@ hr{
     color: #ffffff;
 
     a{
-        text-decoration: none;
         color: #ffffff;
         padding-left: 30px;
     }
