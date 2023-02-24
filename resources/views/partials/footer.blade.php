@@ -1,21 +1,4 @@
 <footer>
-    <div class="footer-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="blue-section">
-                        <ul class="d-flex justify-content-between align-items-center">
-                            <li><a href="#"><img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="Digital"><span>DIGITAL COMICS</span></a></li>
-                            <li><a href="#"><img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="Merchandise"><span>DC MERCHANDISE</span></a></li>
-                            <li><a href="#"><img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="Subscriptions"><span>SUBSCRIPTIONS</span></a></li>
-                            <li><a href="#"><img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="Shop"><span>COMIC SHOP LOCATOR</span></a></li>
-                            <li><a href="#"><img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="Visa"><span>DC POWER VISA</span></a></li>                                
-                        </ul>
-                    </div>               
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="footer-with-bg">
         <div class="container">
             <div class="row">
